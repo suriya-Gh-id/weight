@@ -1,0 +1,56 @@
+body {
+  margin-top: 70px;
+  background: #333;
+  color: #fff;
+}
+
+/* General Card Style */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Primary Card */
+.card-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+}
+
+.card-primary .card-header {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Success Card */
+.card-success {
+  background-color: #28a745;
+  color: #fff;
+  border: 1px solid #28a745;
+}
+
+.card-success .card-header {
+  background-color: #1e7e34;
+  color: #fff;
+}
+
+/* Danger Card */
+.card-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: 1px solid #dc3545;
+}
+
+.card-danger .card-header {
+  background-color: #c82333;
+  color: #fff;
+}
+
